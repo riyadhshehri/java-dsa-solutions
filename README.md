@@ -2,11 +2,17 @@
 
 25 data structures and algorithms problems solved in plain Java, each in one file you can compile and run. Every file states the problem, the pattern, the time and space cost, and the one insight that makes the solution work.
 
-I wrote these while working through a Java DSA course, and kept the ones that taught me something. They are small on purpose. If you are starting out, you can read a file in two minutes and run it in ten seconds.
+I wrote these while working through a Java DSA course. They are small on purpose: you can read a file in two minutes and run it in ten seconds. Each folder also has its own README that explains the concepts behind its problems, so you can start from zero.
 
 ## Who this is for
 
-Beginners who know basic Java (classes, arrays, loops) and want to see how the classic patterns look in real code. It is not a replacement for a course or for solving problems yourself. Read the problem, try it first, then compare.
+Beginners who know basic Java (classes, arrays, loops) and want to see how the classic patterns look in real code. It is not a replacement for solving problems yourself.
+
+## How to use it
+
+1. Open a folder and read its `README.md` for the concepts.
+2. Read a problem's header comment, then close the file and try it yourself.
+3. Compare with the solution, run it, and change the test cases to break it.
 
 ## How to run
 
@@ -32,12 +38,12 @@ Each file's `main` method contains its own test cases and prints `all checks pas
 
 Start with arrays and two pointers, then move toward structures that need more pointer work.
 
-1. `06-arrays`: two pointers, Kadane's algorithm, reversal tricks
-2. `03-hash-tables`: trade memory for speed with maps and sets
-3. `02-stack-queue`: last-in-first-out and first-in-first-out, and how to build one from the other
-4. `01-linked-list`: dummy nodes, fast and slow pointers, in-place rewiring
-5. `04-trees-bst`: recursion, in-order traversal
-6. `05-heaps`: priority queues and "top k" problems
+1. [`06-arrays`](06-arrays): two pointers, Kadane's algorithm, reversal tricks
+2. [`03-hash-tables`](03-hash-tables): trade memory for speed with maps and sets
+3. [`02-stack-queue`](02-stack-queue): last in first out, first in first out, and how to build one from the other
+4. [`01-linked-list`](01-linked-list): dummy nodes, fast and slow pointers, in-place rewiring
+5. [`04-trees-bst`](04-trees-bst): recursion, in-order traversal
+6. [`05-heaps`](05-heaps): priority queues and top-k problems
 
 ## Problems by pattern
 
@@ -75,10 +81,6 @@ The doubly linked list file (`DoublyLinkedList.java`) holds three problems, whic
 ```
 
 Then the solution, then a `main` with test cases. Where a common mistake exists, there is a `Pitfall:` line.
-
-## What is not here yet
-
-Some problems I have solved are not in this repo because I have not written them up to the same standard: Swap Nodes in Pairs, Subarray Sum, Find Pairs with a Target Sum, Insertion Sort on a Linked List, and Validate BST. I would rather leave them out than publish code I have not tested. They will be added as I clean them up.
 
 ## Credit
 
